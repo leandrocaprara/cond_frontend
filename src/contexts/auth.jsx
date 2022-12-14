@@ -16,7 +16,7 @@ export const AuthProvider = ({ children }) => {
     const response = await createSession(email, password)
 
     if (response.response?.status === 401) {
-      setError('Problemas no login, verifique o usuário e/ou a senha.')
+      setError('Problemas no login. Verifique o usuário e/ou a senha.')
     } else {
       const token = response.data.access
 

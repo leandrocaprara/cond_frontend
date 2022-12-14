@@ -22,7 +22,7 @@ const _nav = [
   {
     component: CNavItem,
     name: 'Condomínio',
-    to: '/theme/colors',
+    to: '/pages/condominium',
     icon: <CIcon icon={cilBuilding} customClassName="nav-icon" />
   },
   {
